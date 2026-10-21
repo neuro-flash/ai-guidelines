@@ -37,9 +37,6 @@ Depending on the language of the files you modify, also apply:
 - Filter via camelCase query params matching JSON fields (`?firstName=Karla`).
 - Responses must not differ based on feature flags.
 - Related entities go in an `_embedded` field, only if the service already has them in its own DB.
-- Pagination: query params `page` (1-based) and `size`, response `{"page": {"size", "totalElements", "totalPages", "currentPage"}, "data": []}`.
-- Status codes: 401 only for missing/invalid/expired token, 403 only for missing permissions/subscription, 500 for unexpected server errors. Failed requests never return 2xx.
-- Error bodies: 500 → `{"code": "<unique errorCode>"}`, logged with details under that code. 4xx → `code`, `error`, camelCase `translationKey`, and for validation `validationErrors: [{field, cause, translationKey?}]`. 404s state which entity wasn't found.
 - Serve files via signed bucket URLs, never proxy them through the service.
 - New entities/domains and their endpoints, paths and payloads must be aligned with the dev team before implementation. Update the API docs afterwards.
 
