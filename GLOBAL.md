@@ -12,6 +12,8 @@
 
 # New projects
 
-Whenever you create or touch a project, make sure that there is an AGENTS.md inside and it should contain a prompt like:
+When you work on a project, depending on the language of the files you are modifying (golang, ts etc) use the corresponding rules: 
 
-Use these rules: 
+https://raw.githubusercontent.com/neuro-flash/ai-guidelines/main/go.md for go files
+https://raw.githubusercontent.com/neuro-flash/ai-guidelines/main/typescript.md for ts files 
+
