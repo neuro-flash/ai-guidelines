@@ -9,3 +9,9 @@
 
 - "Assign a PR to someone" means request them as reviewer. Never use the PR assignee functionality.
 - After committing and pushing, check for an open PR on the branch and update its description if needed.
+
+# New projects
+
+Whenever you create or touch a project, make sure that there is an AGENTS.md inside and it should contain a prompt like:
+
+Use these rules: 
