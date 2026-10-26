@@ -43,6 +43,6 @@ Merge it into existing `hooks` if there are any. Don't additionally import the f
    https://github.com/neuro-flash/ai-guidelines/blob/main/SETUP.md to get the current version.
    ```
 
-   Don't use file imports (e.g. Gemini CLI `@~/.ai-guidelines/GLOBAL.md`) instead: they're loaded before the refresh, so the session gets the old version.
+   If the client supports file imports (e.g. Gemini CLI: `@~/.ai-guidelines/GLOBAL.md`), use an import instead. It's more reliable than asking the AI to read the file, but a refresh only applies from the next session on.
 
 When a new file is added to this repo, add it to the commands above.
