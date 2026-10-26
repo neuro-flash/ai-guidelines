@@ -35,6 +35,7 @@ Depending on the language of the files you modify, also apply:
 - Parent resources belong in the path, not the payload, and consistently across all endpoints of a resource (`POST /projects/{projectId}/conversations`).
 - Create resources with `POST` on the plural collection path (no id in the path).
 - Filter via camelCase query params matching JSON fields (`?firstName=Karla`).
+- Error translation keys are always camelCase (`stripeCouponNotFound`, not `STRIPE_COUPON_NOT_FOUND`).
 - Responses must not differ based on feature flags.
 - Related entities go in an `_embedded` field, only if the service already has them in its own DB.
 - Serve files via signed bucket URLs, never proxy them through the service.
