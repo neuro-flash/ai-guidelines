@@ -1,9 +1,9 @@
 # Language-specific rules
 
-Depending on the language of the files you modify, also apply:
+Depending on the language of the files you modify, also apply (downloaded as described in [SETUP.md](SETUP.md)):
 
-- Go: https://raw.githubusercontent.com/neuro-flash/ai-guidelines/main/go.md
-- TypeScript: https://raw.githubusercontent.com/neuro-flash/ai-guidelines/main/typescript.md
+- Go: `~/.ai-guidelines/go.md`
+- TypeScript: `~/.ai-guidelines/typescript.md`
 
 # Code comments
 
