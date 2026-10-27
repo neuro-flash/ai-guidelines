@@ -52,6 +52,8 @@ Depending on the language of the files you modify, also apply (downloaded as des
 
 - Log `context.userId` and `context.requestId`. Generate the request id if missing, propagate it via the `X-REQUEST-ID` header and return it in the response.
 - Avoid personal data (email, name) in logs.
+- Error logs trigger alerts, so only use them when a developer must act, e.g. failed DB connection, invalid DB query, or bad request to an external API.
+- Use at most a warning for anything that repairs itself or doesn't need a code change. Client errors (400, 401, etc.) never log errors.
 
 # Prompts
 
