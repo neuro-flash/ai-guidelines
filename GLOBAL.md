@@ -9,6 +9,7 @@ Depending on the language of the files you modify, also apply (downloaded as des
 
 - Use as few comments as possible. Only add one if it contains really important information not obvious from the code.
 - Keep comments as short as possible. After writing, reread them and condense further.
+- Comments should be be plain ASCII, avoid UTF-8 characters like `—` or `…` there.
 
 # Commit messages & PR descriptions
 
@@ -54,6 +55,7 @@ Depending on the language of the files you modify, also apply (downloaded as des
 - Avoid personal data (email, name) in logs.
 - Error logs trigger alerts, so only use them when a developer must act, e.g. failed DB connection, invalid DB query, or bad request to an external API.
 - Use at most a warning for anything that repairs itself or doesn't need developer action. Client errors (400, 401, etc.) never log errors.
+- Log messages must be plain ASCII, DO NOT use UTF-8 characters like `—` or `…` there.
 
 # Prompts
 
