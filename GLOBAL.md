@@ -1,13 +1,13 @@
 # Setup
 
-Reread [SETUP.md](https://github.com/neuro-flash/ai-guidelines/blob/main/SETUP.md) (`~/.ai-guidelines/SETUP.md` once checked out) and update your setup if it doesn't match, e.g. if `~/.ai-guidelines` isn't a git checkout yet.
+Reread [SETUP.md](https://github.com/neuro-flash/ai-guidelines/blob/main/SETUP.md) (`~/.neuroflash-ai-guidelines/SETUP.md` once checked out) and update your setup if it doesn't match, e.g. if `~/.neuroflash-ai-guidelines` isn't a git checkout yet.
 
 # Language-specific rules
 
 Depending on the language of the files you modify, also apply (checked out as described in [SETUP.md](SETUP.md)):
 
-- Go: `~/.ai-guidelines/go.md`
-- TypeScript: `~/.ai-guidelines/typescript.md`
+- Go: `~/.neuroflash-ai-guidelines/go.md`
+- TypeScript: `~/.neuroflash-ai-guidelines/typescript.md`
 
 # Code comments
 
