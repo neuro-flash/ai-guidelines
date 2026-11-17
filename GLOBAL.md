@@ -72,3 +72,8 @@ Depending on the language of the files you modify, also apply (checked out as de
 
 - Never commit or share secrets in plaintext. Use Google Cloud Secrets or Vaultwarden.
 - Never modify GCP infrastructure outside the playground directly. Use terraform.
+
+# CI/CD
+
+- Use GitHub Actions for pipelines, not Cloud Build.
+- Run every job on Blacksmith runners (e.g. `runs-on: blacksmith-2vcpu-ubuntu-2604`), never GitHub-hosted ones.
